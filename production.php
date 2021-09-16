@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>404 Page not found!</title>
+    <title>500 Internal Server Error!</title>
     <style>
     * {
         -webkit-box-sizing: border-box;
@@ -18,12 +18,12 @@
         margin: 0
     }
 
-    #notfound {
+    #internal-error {
         position: relative;
         height: 100vh
     }
 
-    #notfound .notfound {
+    #internal-error .internal-error {
         position: absolute;
         left: 50%;
         top: 50%;
@@ -32,18 +32,18 @@
         transform: translate(-50%, -50%)
     }
 
-    .notfound {
+    .internal-error {
         max-width: 520px;
         width: 100%;
         text-align: center;
         line-height: 1.4
     }
 
-    .notfound .notfound-404 {
+    .internal-error .internal-error-404 {
         height: 190px
     }
 
-    .notfound .notfound-404 h1 {
+    .internal-error .internal-error-404 h1 {
         font-family: montserrat, sans-serif;
         font-size: 146px;
         font-weight: 700;
@@ -51,7 +51,7 @@
         color: #232323
     }
 
-    .notfound .notfound-404 h1>span {
+    .internal-error .internal-error-404 h1>span {
         display: inline-block;
         width: 120px;
         height: 120px;
@@ -79,7 +79,7 @@
         }
     }
 
-    .notfound h2 {
+    .internal-error h2 {
         font-family: montserrat, sans-serif;
         font-size: 22px;
         font-weight: 700;
@@ -88,13 +88,13 @@
         color: #232323
     }
 
-    .notfound p {
+    .internal-error p {
         font-family: montserrat, sans-serif;
         color: #787878;
         font-weight: 300
     }
 
-    .notfound a {
+    .internal-error a {
         font-family: montserrat, sans-serif;
         display: inline-block;
         padding: 12px 30px;
@@ -107,20 +107,20 @@
         transition: .2s all
     }
 
-    .notfound a:hover {
+    .internal-error a:hover {
         opacity: .8
     }
 
     @media only screen and (max-width:767px) {
-        .notfound .notfound-404 {
+        .internal-error .internal-error-404 {
             height: 115px
         }
 
-        .notfound .notfound-404 h1 {
+        .internal-error .internal-error-404 h1 {
             font-size: 86px
         }
 
-        .notfound .notfound-404 h1>span {
+        .internal-error .internal-error-404 h1>span {
             width: 86px;
             height: 86px
         }
@@ -229,9 +229,9 @@
 </head>
 
 <body>
-    <div id="notfound">
-        <div class="notfound">
-            <div class="notfound-404">
+    <div id="internal-error">
+        <div class="internal-error">
+            <div class="internal-error-404">
                 <h1>5<span></span>0</h1>
             </div>
 
